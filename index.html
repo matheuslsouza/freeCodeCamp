@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive portfolio Matheus</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Matheus</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"
+                ><i class="ri-home-5-line"></i>Home</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"
+                ><i class="ri-trophy-line"></i>Skills</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link"
+                ><i class="ri-book-open-line"></i>Qualificação</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link"
+                ><i class="ri-image-line"></i>Projetos</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"
+                ><i class="ri-chat-3-line"></i>Contato</a
+              >
+            </li>
+          </ul>
+
+          <!--CLOSE BUTTON-->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons">
+          <!--THEME CHANGE BUTTON-->
+          <i class="ri-moon-line change-theme" id="theme_button"></i>
+
+          <!--TOOGGLE BUTTON-->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid section__border">
+          <div class="home__data grid">
+            <h1 class="home__title">
+              Olá, eu sou Matheus<br />
+              Frontend Developer <br />
+            </h1>
+            <div class="home__blob grid">
+              <div class="home__perfil">
+                <img src="./assets/img/perfil.png" alt="home perfil" />
+              </div>
+              <img
+                src="./assets/img/shape-wawes.svg"
+                alt=""
+                class="home__shape-wawes"
+              />
+              <img
+                src="./assets/img/shape-circle.svg"
+                alt=""
+                class="home__shape-circle"
+              />
+            </div>
+            <ul class="home_social">
+              <a
+                href="https://www.linkedin.com/in/matheuslsouza/"
+                target="_blanck"
+                class="home_social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+              <a
+                href="https://github.com/matheuslsouza"
+                target="_blanck"
+                class="home_social-link"
+                ><i class="ri-github-line"></i>
+              </a>
+            </ul>
+          </div>
+          <!--==================== HOME INFO 1 ====================-->
+          <div class="home__info">
+            <div>
+              <h3 class="homw__info-title">BIOGRAFIA</h3>
+              <p class="home__info-descripition">
+                Profissional graduado em Engenharia , atua como assistente de
+                engenharia , com conhecimentos em Desenvolvimento Front-End.
+                <br />
+                Possui conhecimento de linguagens JavaScript e TyperScript, além
+                das tecnologias API REST , React.Js, jQuery, Bootstrap, SASS.
+              </p>
+            </div>
+            <div>
+              <h3 class="homw__info-title">CONTATO</h3>
+              <p class="home__info-descripition">
+                Brasilía, DF <br />
+                matheuslourenco776@gmail.com <br />
+                61-9.9370-0593 <br />
+              </p>
+            </div>
+            <div>
+              <h3 class="homw__info-title">SERVIÇOS</h3>
+              <p class="home__info-descripition">
+                HTML <br />
+                CSS <br />
+                JavaScript <br />
+                React JS <br />
+              </p>
+            </div>
+          </div>
+
+          <!--==================== HOME INFO 2 ====================-->
+          <div class="home__infoe">
+            <div>
+              <h3 class="home__info-title">TEMPO DE EXPERIENCIA</h3>
+              <p class="home__infoe-number">1 ANO</p>
+            </div>
+            <div>
+              <h3 class="home__info-title">PROJETO COMPLETOS</h3>
+              <p class="home__infoe-number">13 +</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">Melhores Skills</span>
+
+        <div class="skills__container container grid section__border">
+          <!--==================== SKILLS 1 ====================-->
+          <div class="skills__content">
+            <h3 class="skills__title">
+              <i class="ri-braces-line"></i>Frontend Developer
+            </h3>
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/html-1.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">HTML</h3>
+                <span class="skills__subtitle">Intermediario</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/css-3.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">CSS</h3>
+                <span class="skills__subtitle">Intermediario</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="./assets/img/logo-javascript.svg"
+                    alt="skills image"
+                  />
+                </div>
+                <h3 class="skills__name">JavaScript</h3>
+                <span class="skills__subtitle">Intermediario</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/react-2.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">React</h3>
+                <span class="skills__subtitle">Basico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/git-icon.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">Git</h3>
+                <span class="skills__subtitle">Basico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="./assets/img/bootstrap-5-1.svg"
+                    alt="skills image"
+                  />
+                </div>
+                <h3 class="skills__name">Bootstrap</h3>
+                <span class="skills__subtitle">Intermediario</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/jquery-4.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">jQuery</h3>
+                <span class="skills__subtitle">Intermediario</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/sass-1.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">Sass</h3>
+                <span class="skills__subtitle">Intermediario</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/redux.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">Redux</h3>
+                <span class="skills__subtitle">Intermediario</span>
+              </div>
+            </div>
+          </div>
+          <!--==================== SKILLS 2 ====================-->
+          <div class="skills__content">
+            <h3 class="skills__title">
+              <i class="ri-pantone-line"></i>Web Designer
+            </h3>
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="./assets/img/figma-1.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">Figma</h3>
+                <span class="skills__subtitle">Basico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="./assets/img/corel-draw-x8-seeklogo.com.svg"
+                    alt="skills image"
+                  />
+                </div>
+                <h3 class="skills__name">Corel Draw</h3>
+                <span class="skills__subtitle">Basico</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="./assets/img/adobe-photoshop-2.svg"
+                    alt="skills image"
+                  />
+                </div>
+                <h3 class="skills__name">Photoshop</h3>
+                <span class="skills__subtitle">Basico</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title">Qualificação</h2>
+        <span class="section__subtitle">Experiência & Educação</span>
+
+        <div class="qualification__container container grid section__border">
+          <!--==================== QUALIFICATION 1 ====================-->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-pencil-ruler-2-line"></i>Educação
+            </h3>
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Engenheira Mecânica</h3>
+                <span class="qualification__country"
+                  >Brasília - Centro Universitario do Distro Federal</span
+                >
+                <span class="qualification__year">2015 - 2021</span>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== QUALIFICATION 2 ====================-->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-building-line"> Empresas</i>
+            </h3>
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Assistente de Engenharia</h3>
+                <span class="qualification__country"
+                  >Hs precisão - Brasília</span
+                >
+                <span class="qualification__year">2019 - 2022</span>
+              </div>
+
+              <div>
+                <h3 class="qualification__name">Menor Aprendiz</h3>
+                <span class="qualification__country">Cnpq - Brasília</span>
+                <span class="qualification__year">2013 - 2014</span>
+              </div>
+
+              <div>
+                <h3 class="qualification__name">Orientador Educacional</h3>
+                <span class="qualification__country">Unnijovem - Brasilía</span>
+                <span class="qualification__year">2017 - 2018</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/img/shape-circle.svg"
+          alt="qualification image"
+          class="qualification__img"
+        />
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <!--      <section class="services section" id="services">
+        <h2 class="section__title">Serviços</h2>
+        <span class="section__subtitle">O que eu ofereço</span>
+
+        <div class="services__container container grid section__border">
+          <div class="services__card">
+            <i class="ri-layout-4-line"></i>
+            <h2 class="services__title">
+              UI/UX <br />
+              Designer
+            </h2>
+            <p class="services__description">
+              iouwmnxceorirtyuvneocm wieumrxciowerutnimwpcoixeurxmciew
+              ewritmpvco wemeiertx0we weritcmp oweirmwvpt
+            </p>
+            <div class="services__border"></div>
+          </div>
+
+          <div class="services__card">
+            <i class="ri-code-line"></i>
+            <h2 class="services__title">
+              Website <br />
+              Designer
+            </h2>
+            <p class="services__description">
+              iouwmnxceorirtyuvneocm wieumrxciowerutnimwpcoixeurxmciew
+              ewritmpvco wemeiertx0we weritcmp oweirmwvpt
+            </p>
+            <div class="services__border"></div>
+          </div>
+
+          <div class="services__card">
+            <i class="ri-quill-pen-line"></i>
+            <h2 class="services__title">
+              UI/UX <br />
+              Designer
+            </h2>
+            <p class="services__description">
+              iouwmnxceorirtyuvneocm wieumrxciowerutnimwpcoixeurxmciew
+              ewritmpvco wemeiertx0we weritcmp oweirmwvpt
+            </p>
+            <div class="services__border"></div>
+          </div>
+        </div>
+      </section>-->
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">Projetos</h2>
+        <span class="section__subtitle">Projetos recenter</span>
+
+        <div class="container section__border">
+          <div class="projects__container swiper">
+            <div class="swiper-wrapper">
+              <!--==================== PROJECT 1 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  alt="projects image"
+                  src="./assets/img/project1.jpg"
+                  class="projects__img"
+                />
+                <div>
+                  <span class="projects__subtitle">React, Api</span>
+                  <h1 class="projects__title">Film List</h1>
+                  <a href="#" class="projects__button"
+                    >Visualizar <i class="ri-arrow-right-line"></i
+                  ></a>
+                </div>
+              </div>
+
+              <!--==================== PROJECT 2 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  alt="projects image"
+                  src="./assets/img/project2.jpg"
+                  class="projects__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Html, Css, Js</span>
+                  <h1 class="projects__title">Gerador de Senha</h1>
+                  <a href="#" class="projects__button"
+                    >Visualizar <i class="ri-arrow-right-line"></i
+                  ></a>
+                </div>
+              </div>
+
+              <!--==================== PROJECT 3 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  alt="projects image"
+                  src="./assets/img/project3.jpg"
+                  class="projects__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Html, Css, Js</span>
+                  <h1 class="projects__title">To-do-list</h1>
+                  <a href="#" class="projects__button"
+                    >Visualizar <i class="ri-arrow-right-line"></i
+                  ></a>
+                </div>
+              </div>
+
+              <!--==================== PROJECT 4 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  alt="projects image"
+                  src="./assets/img/project4.jpg"
+                  class="projects__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Html, Css, Js</span>
+                  <h1 class="projects__title">Calculadora imc</h1>
+                  <a href="#" class="projects__button"
+                    >Visualizar <i class="ri-arrow-right-line"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!--Swiper arrows-->
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <!--Swiper pagination-->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section">
+        <h2 class="section__title">Testemunhos</h2>
+        <span class="section__subtitle">Exemplos</span>
+        <div class="container section__border">
+          <div class="testimonial__container swiper">
+            <div class="swiper-wrapper">
+              <!--==================== TESTIMONIAL 1 ====================-->
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  "Trabalhei com o Matheus é passou uma boa impressão, realizou
+                  meus projetos a um bom custo, com excelente qualidade e
+                  atenção. Excelente serviço é recomendo."
+                </p>
+                <div>
+                  <h3 class="testimonial__name">Valdemort</h3>
+                  <span class="testimonial__subtitle">Cliente</span>
+                </div>
+              </div>
+
+              <!--==================== TESTIMONIAL 2 ====================-->
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  "Trabalhei com o Matheus é passou uma boa impressão, realizou
+                  meus projetos a um bom custo, com excelente qualidade e
+                  atenção. Excelente serviço é recomendo."
+                </p>
+                <div>
+                  <h3 class="testimonial__name">Sauron</h3>
+                  <span class="testimonial__subtitle">Cliente</span>
+                </div>
+              </div>
+
+              <!--==================== TESTIMONIAL 3 ====================-->
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  "Trabalhei com o Matheus é passou uma boa impressão, realizou
+                  meus projetos a um bom custo, com excelente qualidade e
+                  atenção. Excelente serviço é recomendo."
+                </p>
+                <div>
+                  <h3 class="testimonial__name">Kaidou</h3>
+                  <span class="testimonial__subtitle">cliente</span>
+                </div>
+              </div>
+            </div>
+            <!--Swiper arrows-->
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+          </div>
+        </div>
+
+        <img
+          src="./assets/img/shape-wawes.svg"
+          alt="testimonial"
+          class="testimonial__img"
+        />
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid section__border">
+          <div class="contact__content">
+            <h3 class="contact__title">
+              <i class="ri-chat-3-line"></i>Talk to me
+            </h3>
+
+            <div class="contact__info">
+              <div class="contact__data">
+                <span class="contact__data-title">Email</span>
+                <span class="contact__data-info"
+                  >matheuslourenco776@gmail.com</span
+                >
+              </div>
+
+              <div class="contact__data">
+                <span class="contact__data-title">Whatsapp</span>
+                <span class="contact__data-info">61-9.9370-0593</span>
+
+                <a href="" target="_blank" class="contact__button">
+                  Write me <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+
+              <div class="contact__data">
+                <span class="contact__data-title"></span>
+                <span class="contact__data-info"></span>
+
+                <a href="" target="_blank" class="contact__button">
+                  Write me <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">
+              <i class="ri-send-plane-line"></i> Write me your project
+            </h3>
+
+            <form action="" class="contact__form" id="contact_form">
+              <div class="contact__form-div">
+                <label class="contact__form-tag">Names</label>
+                <input
+                  type="text"
+                  name="user_name"
+                  required
+                  placeholder="Write your names"
+                  class="contact__form-input"
+                  id="contact-name"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label class="contact__form-tag">Mail</label>
+                <input
+                  type="email"
+                  name="user_email"
+                  required
+                  placeholder="Write your Email"
+                  class="contact__form-input"
+                  id="contact-email"
+                />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label class="contact__form-tag">Project</label>
+                <textarea
+                  name="user_project"
+                  placeholder="Write your project"
+                  id="contact-project"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <p class="contact__message" id="contact-message"></p>
+
+              <button type="submit" class="contact__button">
+                Submit <i class="ri-arrow-right-up-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Matheus</h1>
+        <p>Front-End Developer</p>
+        <ul class="footer_list">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+          <li>
+            <a href="#skills" class="footer__link">Skills</a>
+          </li>
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://www.linkedin.com/in/matheuslsouza/"
+            target="_blank"
+            class="footer__social-link"
+            ><i class="ri-linkedin-box-line"></i
+          ></a>
+          <a
+            href="https://github.com/matheuslsouza"
+            target="_blank"
+            class="footer__social-link"
+            ><i class="ri-github-line"></i
+          ></a>
+        </ul>
+        <span class="footer__copy">
+          &$169; Copyright Bedimcode. All rightss reserved
+        </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
